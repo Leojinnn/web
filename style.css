@@ -1,0 +1,40 @@
+*{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+}
+.home-list{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns:  120px 1fr;
+}
+
+.article{
+    padding: 40px;
+}
+img{
+    width: auto;
+    margin: auto;
+}
+
+@media(max-width :800px) {
+    #grid {
+        display: block;
+    }
+    .home-list{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+}
