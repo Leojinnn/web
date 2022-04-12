@@ -1,5 +1,11 @@
 *{
     font-family: 'Gothic A1', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 h1{
@@ -27,6 +33,7 @@ img{
     margin: auto;
 }
 
+    
 @media(max-width :800px) {
     #grid {
         display: block;
